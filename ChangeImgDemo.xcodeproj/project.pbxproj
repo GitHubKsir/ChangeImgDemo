@@ -13,6 +13,8 @@
 		D0E5B8811F46C7F60074230F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5B87F1F46C7F60074230F /* Main.storyboard */; };
 		D0E5B8831F46C7F60074230F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E5B8821F46C7F60074230F /* Assets.xcassets */; };
 		D0E5B8861F46C7F60074230F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E5B8841F46C7F60074230F /* LaunchScreen.storyboard */; };
+		D0E5B88F1F46C87D0074230F /* LFUserIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E5B88E1F46C87D0074230F /* LFUserIconView.m */; };
+		D0E5B8911F46C9E60074230F /* Luff.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0E5B8901F46C9E60074230F /* Luff.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D0E5B8821F46C7F60074230F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E5B8851F46C7F60074230F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E5B8871F46C7F60074230F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E5B88D1F46C87D0074230F /* LFUserIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFUserIconView.h; sourceTree = "<group>"; };
+		D0E5B88E1F46C87D0074230F /* LFUserIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFUserIconView.m; sourceTree = "<group>"; };
+		D0E5B8901F46C9E60074230F /* Luff.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Luff.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		D0E5B8751F46C7F50074230F /* ChangeImgDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0E5B8901F46C9E60074230F /* Luff.jpeg */,
 				D0E5B8791F46C7F60074230F /* AppDelegate.h */,
 				D0E5B87A1F46C7F60074230F /* AppDelegate.m */,
 				D0E5B87C1F46C7F60074230F /* ViewController.h */,
 				D0E5B87D1F46C7F60074230F /* ViewController.m */,
+				D0E5B88D1F46C87D0074230F /* LFUserIconView.h */,
+				D0E5B88E1F46C87D0074230F /* LFUserIconView.m */,
 				D0E5B87F1F46C7F60074230F /* Main.storyboard */,
 				D0E5B8821F46C7F60074230F /* Assets.xcassets */,
 				D0E5B8841F46C7F60074230F /* LaunchScreen.storyboard */,
@@ -110,6 +118,7 @@
 				TargetAttributes = {
 					D0E5B8721F46C7F50074230F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33B3EJ8WV4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,6 +148,7 @@
 			files = (
 				D0E5B8861F46C7F60074230F /* LaunchScreen.storyboard in Resources */,
 				D0E5B8831F46C7F60074230F /* Assets.xcassets in Resources */,
+				D0E5B8911F46C9E60074230F /* Luff.jpeg in Resources */,
 				D0E5B8811F46C7F60074230F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E5B88F1F46C87D0074230F /* LFUserIconView.m in Sources */,
 				D0E5B87E1F46C7F60074230F /* ViewController.m in Sources */,
 				D0E5B87B1F46C7F60074230F /* AppDelegate.m in Sources */,
 				D0E5B8781F46C7F60074230F /* main.m in Sources */,
@@ -272,7 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33B3EJ8WV4;
 				INFOPLIST_FILE = ChangeImgDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lf.ChangeImgDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +296,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33B3EJ8WV4;
 				INFOPLIST_FILE = ChangeImgDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lf.ChangeImgDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
